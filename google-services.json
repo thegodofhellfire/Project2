@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "632408200274",
+    "firebase_url": "https://admob-app-id-3376369677.firebaseio.com",
+    "project_id": "admob-app-id-3376369677",
+    "storage_bucket": "admob-app-id-3376369677.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632408200274:android:9867aa94bd60dbf5",
+        "android_client_info": {
+          "package_name": "com.gamesforbabies.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632408200274-nsfpjg1njgo5bm05f05psd1hn10vebb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6CAyv_PnaEpmm1oEYPufuKs_qVGBDjQ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
