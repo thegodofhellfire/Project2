@@ -48,6 +48,11 @@
                 </style>
             </head>
     <body onresize="app.onResize()">
+        <div id="fullpage" class="app">
+            <div id="progressDialog" class="progressDialog hidden">
+            <div id="spinner"></div>
+            </div>
+        </div>
         <div id="homePage" class="page center" style="background-color: #CCFFCC">
             <style type="text/css">
                 img {
@@ -93,22 +98,22 @@
                 <h1 id="red_text"> Red </h1>
                 
                 <a id="linktop" href="javascript:playexplosion()"></a>
-        </div>
+            </div>
         
-        <div id="c2_green" class="page right" style="background-color: #CCFFCC">
-            <style type="text/css">
-                img {
-                    /*Page 1*/
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    width: 400px;
-                    height: 400px;
-                    margin-top: -200px; /* Half the height */
-                    margin-left: -200px; /* Half the width */
-                }
-            </style>
-            <img src="data/Green.jpg" alt="Green">
+            <div id="c2_green" class="page right" style="background-color: #CCFFCC">
+                <style type="text/css">
+                    img {
+                        /*Page 1*/
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        width: 400px;
+                        height: 400px;
+                        margin-top: -200px; /* Half the height */
+                        margin-left: -200px; /* Half the width */
+                    }
+                </style>
+                <img src="data/Green.jpg" alt="Green">
                 
                 <style type="text/css">
                     h1 {
